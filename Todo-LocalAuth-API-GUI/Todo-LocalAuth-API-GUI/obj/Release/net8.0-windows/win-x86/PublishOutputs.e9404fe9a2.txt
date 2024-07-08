@@ -1,0 +1,2 @@
+C:\Users\praktikant\Desktop\Lukas\API\Todo-LocalAuth-API-GUI\Release\Todo-LocalAuth-API-GUI.pdb
+C:\Users\praktikant\Desktop\Lukas\API\Todo-LocalAuth-API-GUI\Release\Todo-LocalAuth-API-GUI.exe
