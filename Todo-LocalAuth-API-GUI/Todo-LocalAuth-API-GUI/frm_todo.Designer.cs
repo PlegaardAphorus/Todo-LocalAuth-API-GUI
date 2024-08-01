@@ -79,7 +79,7 @@
             lbl_status.Location = new Point(442, 12);
             lbl_status.Name = "lbl_status";
             lbl_status.Size = new Size(52, 20);
-            lbl_status.TabIndex = 3;
+            lbl_status.TabIndex = 5;
             lbl_status.Text = "Status:";
             // 
             // gbx_status
@@ -89,7 +89,7 @@
             gbx_status.Location = new Point(442, 35);
             gbx_status.Name = "gbx_status";
             gbx_status.Size = new Size(144, 89);
-            gbx_status.TabIndex = 4;
+            gbx_status.TabIndex = 6;
             gbx_status.TabStop = false;
             // 
             // rbtn_done
@@ -122,7 +122,7 @@
             lbl_desc.Location = new Point(274, 81);
             lbl_desc.Name = "lbl_desc";
             lbl_desc.Size = new Size(101, 20);
-            lbl_desc.TabIndex = 5;
+            lbl_desc.TabIndex = 3;
             lbl_desc.Text = "Beschreibung:";
             // 
             // cal_date
@@ -149,7 +149,7 @@
             tbx_desc.Multiline = true;
             tbx_desc.Name = "tbx_desc";
             tbx_desc.Size = new Size(153, 244);
-            tbx_desc.TabIndex = 6;
+            tbx_desc.TabIndex = 4;
             // 
             // cbx_deadline
             // 
@@ -187,7 +187,7 @@
             btn_back.Location = new Point(603, 12);
             btn_back.Name = "btn_back";
             btn_back.Size = new Size(52, 31);
-            btn_back.TabIndex = 12;
+            btn_back.TabIndex = 13;
             btn_back.Text = "X";
             btn_back.UseVisualStyleBackColor = true;
             btn_back.Click += btn_back_Click;
@@ -197,7 +197,7 @@
             btn_edit.Location = new Point(274, 389);
             btn_edit.Name = "btn_edit";
             btn_edit.Size = new Size(153, 29);
-            btn_edit.TabIndex = 13;
+            btn_edit.TabIndex = 12;
             btn_edit.Text = "Bearbeiten";
             btn_edit.UseVisualStyleBackColor = true;
             btn_edit.Click += btn_edit_Click;
