@@ -23,8 +23,8 @@ namespace Todo_LocalAuth_API_GUI
                 {
                     pbr_loading.PerformStep();
                 }
-                Thread.Sleep(random.Next(30)+1000);
-                if (i == zufall-1)
+                Thread.Sleep(random.Next(30) + 1000);
+                if (i == zufall - 1)
                 {
                     pbr_loading.Value = 100;
                 }

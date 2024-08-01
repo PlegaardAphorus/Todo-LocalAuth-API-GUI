@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Todo-LocalAuth-API-GUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+96ba43251aa01b89765c92cbf956fb54b29a1e97")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc9f86876d06b33336ad3b48c95723b76bfe4362")]
 [assembly: System.Reflection.AssemblyProductAttribute("Todo-LocalAuth-API-GUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Todo-LocalAuth-API-GUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

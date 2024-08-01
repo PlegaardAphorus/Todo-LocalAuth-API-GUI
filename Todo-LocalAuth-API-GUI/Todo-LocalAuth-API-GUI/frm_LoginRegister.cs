@@ -1,7 +1,7 @@
-﻿using Todo_LocalAuth_API_GUI.utility;
-using Todo_LocalAuth_API_GUI.models;
-using System.Text;
+﻿using System.Text;
 using System.Text.Json;
+using Todo_LocalAuth_API_GUI.models;
+using Todo_LocalAuth_API_GUI.utility;
 
 namespace Todo_LocalAuth_API_GUI
 {

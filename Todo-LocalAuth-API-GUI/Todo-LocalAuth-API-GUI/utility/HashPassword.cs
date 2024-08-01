@@ -17,7 +17,7 @@ namespace Todo_LocalAuth_API_GUI.utility
                 }
 
                 return sb.ToString();
-            } 
+            }
         }
     }
 }

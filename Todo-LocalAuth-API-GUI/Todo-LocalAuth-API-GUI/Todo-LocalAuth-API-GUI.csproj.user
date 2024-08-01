@@ -3,4 +3,15 @@
   <PropertyGroup>
     <_LastSelectedProfileId>C:\Users\praktikant\Desktop\Lukas\API\Todo-LocalAuth-API-GUI\Todo-LocalAuth-API-GUI\Todo-LocalAuth-API-GUI\Properties\PublishProfiles\FolderProfile.pubxml</_LastSelectedProfileId>
   </PropertyGroup>
+  <ItemGroup>
+    <Compile Update="frm_LoginRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frm_start.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frm_todo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
 </Project>

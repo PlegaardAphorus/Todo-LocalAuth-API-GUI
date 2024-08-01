@@ -44,6 +44,7 @@
             btn_add = new Button();
             btn_remove = new Button();
             btn_back = new Button();
+            btn_edit = new Button();
             gbx_status.SuspendLayout();
             SuspendLayout();
             // 
@@ -61,7 +62,7 @@
             tbx_name.Location = new Point(274, 35);
             tbx_name.Name = "tbx_name";
             tbx_name.Size = new Size(153, 27);
-            tbx_name.TabIndex = 1;
+            tbx_name.TabIndex = 2;
             // 
             // lbl_name
             // 
@@ -69,7 +70,7 @@
             lbl_name.Location = new Point(274, 12);
             lbl_name.Name = "lbl_name";
             lbl_name.Size = new Size(52, 20);
-            lbl_name.TabIndex = 2;
+            lbl_name.TabIndex = 1;
             lbl_name.Text = "Name:";
             // 
             // lbl_status
@@ -97,7 +98,7 @@
             rbtn_done.Location = new Point(6, 56);
             rbtn_done.Name = "rbtn_done";
             rbtn_done.Size = new Size(82, 24);
-            rbtn_done.TabIndex = 5;
+            rbtn_done.TabIndex = 1;
             rbtn_done.TabStop = true;
             rbtn_done.Text = "Erledigt";
             rbtn_done.UseVisualStyleBackColor = true;
@@ -131,7 +132,7 @@
             cal_date.MinDate = new DateTime(1970, 1, 1, 0, 0, 0, 0);
             cal_date.Name = "cal_date";
             cal_date.ShowToday = false;
-            cal_date.TabIndex = 6;
+            cal_date.TabIndex = 9;
             // 
             // lbl_date
             // 
@@ -139,7 +140,7 @@
             lbl_date.Location = new Point(439, 182);
             lbl_date.Name = "lbl_date";
             lbl_date.Size = new Size(70, 20);
-            lbl_date.TabIndex = 7;
+            lbl_date.TabIndex = 8;
             lbl_date.Text = "Fällig bis:";
             // 
             // tbx_desc
@@ -148,7 +149,7 @@
             tbx_desc.Multiline = true;
             tbx_desc.Name = "tbx_desc";
             tbx_desc.Size = new Size(153, 244);
-            tbx_desc.TabIndex = 8;
+            tbx_desc.TabIndex = 6;
             // 
             // cbx_deadline
             // 
@@ -156,7 +157,7 @@
             cbx_deadline.Location = new Point(439, 142);
             cbx_deadline.Name = "cbx_deadline";
             cbx_deadline.Size = new Size(91, 24);
-            cbx_deadline.TabIndex = 9;
+            cbx_deadline.TabIndex = 7;
             cbx_deadline.Text = "Deadline";
             cbx_deadline.UseVisualStyleBackColor = true;
             cbx_deadline.CheckedChanged += cbx_deadline_CheckedChanged;
@@ -165,19 +166,19 @@
             // 
             btn_add.Location = new Point(274, 354);
             btn_add.Name = "btn_add";
-            btn_add.Size = new Size(153, 29);
+            btn_add.Size = new Size(76, 29);
             btn_add.TabIndex = 10;
-            btn_add.Text = "Hinzufügen";
+            btn_add.Text = "+";
             btn_add.UseVisualStyleBackColor = true;
             btn_add.Click += btn_add_Click;
             // 
             // btn_remove
             // 
-            btn_remove.Location = new Point(274, 389);
+            btn_remove.Location = new Point(351, 354);
             btn_remove.Name = "btn_remove";
-            btn_remove.Size = new Size(153, 29);
+            btn_remove.Size = new Size(76, 29);
             btn_remove.TabIndex = 11;
-            btn_remove.Text = "Entfernen";
+            btn_remove.Text = "-";
             btn_remove.UseVisualStyleBackColor = true;
             btn_remove.Click += btn_remove_Click;
             // 
@@ -186,16 +187,27 @@
             btn_back.Location = new Point(603, 12);
             btn_back.Name = "btn_back";
             btn_back.Size = new Size(52, 31);
-            btn_back.TabIndex = 19;
+            btn_back.TabIndex = 12;
             btn_back.Text = "X";
             btn_back.UseVisualStyleBackColor = true;
             btn_back.Click += btn_back_Click;
+            // 
+            // btn_edit
+            // 
+            btn_edit.Location = new Point(274, 389);
+            btn_edit.Name = "btn_edit";
+            btn_edit.Size = new Size(153, 29);
+            btn_edit.TabIndex = 13;
+            btn_edit.Text = "Bearbeiten";
+            btn_edit.UseVisualStyleBackColor = true;
+            btn_edit.Click += btn_edit_Click;
             // 
             // frm_todo
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(667, 437);
+            Controls.Add(btn_edit);
             Controls.Add(btn_back);
             Controls.Add(btn_remove);
             Controls.Add(btn_add);
@@ -237,5 +249,6 @@
         private Button btn_add;
         private Button btn_remove;
         private Button btn_back;
+        private Button btn_edit;
     }
 }

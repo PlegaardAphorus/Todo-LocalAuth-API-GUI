@@ -35,7 +35,7 @@
                     return Name + ", Erledigt: " + erledigt;
                 }
 
-            }   
+            }
         }
     }
 }
